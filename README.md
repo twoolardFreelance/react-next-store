@@ -19,3 +19,4 @@ In the process, I reflected a lot about this kind of Universal JavaScript stack 
 
 
 # react-next-store
+# react-next-store
