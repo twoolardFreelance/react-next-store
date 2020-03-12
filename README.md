@@ -1,23 +1,61 @@
-# Using Strapi for Node.js Content Management with a React SPA
+<h1 align="center">React + GraphQL + Next.js + Apollo + Scss + Typescript Starter</h1>
 
-![Strapi demo](https://snipcart.com/media/203792/node-js-react-strapi-1.png)
+<p align="center">
+  <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.shields.io/badge/Typescript-v3.7.2-blue.svg?logo=TypeScript"></a>
+  <a href="https://nextjs.org/" target="_blank"><img src="https://img.shields.io/badge/Next.js-v9.1.1-blueviolet.svg"></a>
+  <a href="https://reactjs.org/" target="_blank"><img src="https://img.shields.io/badge/React-v16.10.2-%238DD6F9.svg?logo=React"></a>
+  <a href="https://graphql.org/" target="_blank"><img src="https://img.shields.io/badge/GraphQL-v14.5.8-ff69b4.svg?logo=GraphQL"></a>
+  <a href="https://github.com/prettier/prettier" target="_blank"><img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"></a>
+  <a href="https://github.com/codica2" target="_blank"><img src="https://img.shields.io/badge/licence-MIT-green.svg" /></a>
+</p>
 
-Node.js and React are two of the most powerful tools in the JavaScript ecosystem. In this tutorial, we use Strapi for Node.js content management and strap it to a React frontend, resulting in a full JS SPA.
+# Landing page template
 
-Steps:
+## Starting template with:
 
-- Setting up a Node.js backend for Strapi with MongoDB.
-- Creating appropriate content types in Strapi for the SPA.
-- Building a React SPA (a basic online shop) with create-react-app.
-- Bundling & deploying the Universal JS app!
+- React.js
+- Next.js
+- Typescript
+- SCSS
+- Apollo
+- GraphQl
+- EsLint
+- Prettier
+- Jest tests
+- Nodemon
+- Styled Components
 
-In the process, I reflected a lot about this kind of Universal JavaScript stack and its place in the developer's space.
+## How to use
+### Install node dependencies
 
-> Read the full tutorial [here](https://snipcart.com/blog/node-js-react-strapi-tutorial)
+```javascript
+npm i
+npm run dev
+```
+### Build docker container
+```
+docker build -t cd-boilerplate .
+docker-compose up -d --build
+docker-compose up
+```
 
-> Find the live demo [here](https://snipcart-strapi-react.netlify.com/)
+## Environment variables
 
+You can access your .env variables by deconstructing 'process.env' object, both on client and server.
+Just make sure that you reboot the server when updating .env file.
 
-# react-next-store
-# react-next-store
-# react-next-store
+## Configuration
+
+You should configure things like eslint, tsconfig, prettier etc. with things that suit you and your project.
+Configuration in this project is not perfect - it's just my own preference, but I'm open to suggestions :)
+
+> Thank you [Prosper Otemuyiwa](https://github.com/unicodeveloper) for including it in your [awesome-nextjs](https://github.com/unicodeveloper/awesome-nextjs)
+
+## To see before coding;
+
+- [pure-functions-immutability-and-other-software-superpowers](https://medium.com/dailyjs/pure-functions-immutability-and-other-software-superpowers-dfe6039af8f6)
+- [Check out this to read more about /server/graphql workings](https://github.com/Urigo/merge-graphql-schemas)
+- [Context management choice](https://www.youtube.com/watch?v=Q54YDGC_t3Y)
+- [Apollo context management](https://www.apollographql.com/docs/react/data/local-state/)
+- [graphql-tag](https://devstore.io/js/graphql-tag)
+- [immutable-js](https://github.com/immutable-js/immutable-js)
