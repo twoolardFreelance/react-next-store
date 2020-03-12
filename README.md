@@ -18,3 +18,4 @@ In the process, I reflected a lot about this kind of Universal JavaScript stack 
 > Find the live demo [here](https://snipcart-strapi-react.netlify.com/)
 
 
+# react-next-store
